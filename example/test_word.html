@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>範例程式碼</title>
+</head>
+  <body>
+   <ol>
+   <li>測試開啟WORD</li>
+   </ol>
+   <textarea style="width: 950px; height: 450px;" readonly="readonly">
+	$filename = 'test.doc';
+	$word = new COM("word.application") or die ("Could not initialise MS Word object.");
+	$word->Documents->Open(realpath($filename));
+
+	// Extract content.
+	$content = (string) $word->ActiveDocument->Content;
+
+	echo nl2br($content);
+
+	$word->ActiveDocument->Close(false);
+
+	$word->Quit();
+	$word = null;
+	unset($word);
+   </textarea>
+   </body>
+</html>

@@ -1,0 +1,150 @@
+{
+  "main": {
+    "name": "Yi-Hsiu Pan (Carrie)",
+    "occupation": "Web developer and PHP programmer",
+    "description": "I program websites and web applications of all types.",
+    "image": "profile.jpg",
+    "bio": "I program websites and web applications of all types.",
+    "email": "i7807@yahoo.com.tw",
+    "phone": "0972-623-586",
+    "address": {
+      "street": "",
+      "city": "Taipei",
+      "state": "",
+      "zip": "10658"
+    },
+    "website": "http://carriepan7807.gfwh.0lx.net/example-1/",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/YiHsiuPan",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/yi-hsiu-pan-66b7b158/",
+        "className": "fa fa-linkedin"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "Lunghwa University of Science and Technology",
+        "degree": "Department Of Information Management(資訊管理系)",
+        "graduated": "June 2011",
+        "description": "在大三的時候進行專題製作，主題為音樂卡片製作，以FACEBOOK為平台，在為期一年的專題中，我學會了團隊合作、規劃專案、管理團隊並將成果呈現。"
+      }
+    ],
+    "work": [
+      {
+        "company": "Bluewell",
+        "title": "PHP前端工程師 ",
+        "years": "2016 年 5 月 – 2018 年 1 月",
+        "description": "在任職期間，協助產品進行專案，主要業務內容為前端PHP的程式撰寫。"
+      },
+      {
+        "company": "Uitox",
+        "title": "工程師",
+        "years": "2014 年 3 月 – 2016 年 5 月",
+        "description": "工作內容:ERP(訂單相關)、賣場(內容管理、分類)。在任職期間，出差上海3個月，參與O2O專案進行，主要負責分類(各省進入首頁，分類會有不同呈現)"
+      },
+      {
+        "company": "Power Brand(動力品牌)",
+        "title": "助理工程師",
+        "years": "2013 年 7 月 – 2013 年 12 月",
+        "description": "工作內容:接案公司，從各式不一樣的專案內容，將基礎學扎實"
+      },
+      {
+        "company": "BQool",
+        "title": "PHP工程師",
+        "years": "2011 年 1 月 – 2013 年 4 月",
+        "description": "主要為美國電子商務網站(3C配件)，工作內容:報表產出、維護既有網站"
+      }
+    ],
+    "skills": [
+      {
+        "name": "php",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "65%"
+      },
+      {
+        "name": "HTML5",
+        "level": "50%"
+      },
+      {
+        "name": "jQuery",
+        "level": "75%"
+      },
+      {
+        "name": "SQL",
+        "level": "65%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Sortable",
+        "description": "Sortable練習",
+        "category": "JQuery、PHP",
+        "tags": "Front-end、Back-end",
+        "image": "sortable.JPG",
+        "url": "/example-1/jquery-sortable/index.php",
+        "modal": "#modal-01"
+      },
+      {
+        "title": "圖形表",
+        "description": "圓餅圖",
+        "category": "JQuery",
+        "tags": "Front-end",
+        "image": "pie.jpg",
+        "url": "/example-1/pie.php",
+        "modal": "#modal-06"
+      },
+      {
+        "title": "即時更新",
+        "description": "即時更新",
+        "category": "JQuery、PHP",
+        "tags": "Front-end、Back-end",
+        "image": "ajaxUpdate.JPG",
+        "url": "/example-1/ajax-update/index.php",
+        "modal": "#modal-02"
+      },
+      {
+        "title": "Autocomplete",
+        "description": "Autocomplete",
+        "category": "JQuery、PHP",
+        "tags": "Front-end、Back-end",
+        "image": "autocomplete.JPG",
+        "url": "/example-1/autocompelete/index.php",
+        "modal": "#modal-03"
+      },
+      {
+        "title": "黃金價格即時更新",
+        "description": "黃金價格即時更新",
+        "category": "JQuery、PHP",
+        "tags": "Front-end、Back-end",
+        "image": "gold.jpg",
+        "url": "/example-1/intime/gold_view.php",
+        "modal": "#modal-05"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "user": "John Doe"
+      },
+      {
+        "text": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "user": "Steve Smith"
+      }
+    ]
+  }
+}

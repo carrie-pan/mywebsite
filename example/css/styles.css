@@ -1,0 +1,72 @@
+* {	margin: 0; padding: 0; }
+
+body {
+	font: 0.9em Arial;
+	padding: 40px; 
+}
+
+#info {
+	display: block;
+	padding: 10px;
+    margin: 20px 280px;
+	border: 1px solid #333;
+	background-color: #efefef;
+    width:50%;
+}
+
+#info strong{
+    background-color: #efb61d;
+    color: #515151;
+}
+
+.test-list {
+	list-style: none;
+
+}
+
+.test-list div {
+    color:#ffffff;
+	display: block;
+	padding: 20px 30px;
+    margin-bottom: 3px;
+    width: 25%;
+	background-color: #7892b6;
+}
+
+.test-list div img.handle {
+	margin-right: 20px;
+	cursor: move;
+}
+div.list_default{
+    border: 1px solid #7892b6;
+    background-color: #3c3c3c;
+    background-color: #262626;
+    background-image: -webkit-linear-gradient(top, #262626, #0c0c0c);
+    background-image: -moz-linear-gradient(top, #262626, #0c0c0c);
+    background-image: -o-linear-gradient(top, #262626, #0c0c0c);
+    background-image: -ms-linear-gradient(top, #262626, #0c0c0c);
+    background-image: linear-gradient(top, #262626, #0c0c0c);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    height: 91px;
+    overflow: visible;
+    width: 373px;
+    margin: 4px;
+    position: relative;
+    padding: 0 6px 6px 0;
+    float: left;
+}
+.post .code { 
+  display: block; /* fixes a strange ie margin bug */
+  font-family: Courier New; 
+  font-size: 10pt; 
+  overflow:auto; 
+  background: #f0f0f0 left top repeat-y;
+  border: 1px solid #ccc;
+  padding: 10px 10px 10px 21px;
+  max-height:200px;
+  line-height: 1.2em;
+}
