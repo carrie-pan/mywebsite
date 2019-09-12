@@ -18,6 +18,8 @@ $pageId="ajax";
                 }
             });
             
+            $(".test-list").disableSelection();
+            
             $('.handle').hover(function(){
                 $( this ).css( 'cursor', 'move' );
             });
